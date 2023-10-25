@@ -1,11 +1,11 @@
 body{
-    background-color: black;
+    background-color: darkgray;
 }
 
 
 button{
-    background-color: white;
-    color: green;
+    background-color: black;
+    color: white;
     border-style: none;
     width: 55px;
     height: 55px;
@@ -41,4 +41,9 @@ button{
 .space{
     width: 400px;
     border-radius: 10px;
+}
+
+.key-div{
+    max-width: fit-content;
+    background-color: white;
 }
