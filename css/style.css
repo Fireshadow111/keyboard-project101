@@ -10,7 +10,11 @@ button{
     width: 55px;
     height: 55px;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 20%;
+    border-radius: 10px;
+}
+
+button:hover{
+cursor: pointer;
 }
 
 .row{
@@ -19,8 +23,8 @@ button{
 }
 
 .back{
-    width: 115px;
-    border-radius: 15px;
+    width: 120px;
+    border-radius: 10px;
 }
 
 .tab{
@@ -28,13 +32,24 @@ button{
     border-radius: 10px;
 }
 
-.enter{
-    width: 135px;
+.enter-1{
+    width: 181px;
     border-radius: 10px;
 }
 
-.shift{
+
+.shift-1{
     width: 150px;
+    border-radius: 10px;
+}
+
+.shift-2{
+    width: 86px;
+    border-radius: 10px;
+}
+
+.control{
+    width: 72px;
     border-radius: 10px;
 }
 
@@ -46,4 +61,15 @@ button{
 .key-div{
     max-width: fit-content;
     background-color: white;
+    margin-top: 190px;
 }
+
+.slash{
+    width: 91px;
+    border-radius: 10px;
+}
+
+.play{
+    width: 60px;
+}
+
