@@ -27,7 +27,7 @@ cursor: pointer;
     border-radius: 10px;
 }
 
-.tab{
+.tabButton{
     width: 85px;
     border-radius: 10px;
 }
@@ -57,7 +57,7 @@ cursor: pointer;
 .key-div{
     max-width: fit-content;
     background-color: white;
-    margin-top: 190px;
+    margin-top: 15px;
 }
 
 .slash{
@@ -65,7 +65,14 @@ cursor: pointer;
     border-radius: 10px;
 }
 
-.play{
+.playButton{
     width: 60px;
+}
+
+#output{
+    width: 500px;
+    height: 50px;
+    border-style: solid;
+
 }
 
